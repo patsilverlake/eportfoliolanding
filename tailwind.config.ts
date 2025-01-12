@@ -71,8 +71,15 @@ const config: Config = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
-  		}
+  			},
+  			cream: "#FAF9F6",
+  			navy: "#002147",
+  			coral: "#FF6B6B",
+  		},
+  		fontFamily: {
+  			serif: ["Playfair Display", "serif"],
+  			sans: ["Inter", "sans-serif"],
+  		},
   	}
   },
   plugins: [require("tailwindcss-animate")],
